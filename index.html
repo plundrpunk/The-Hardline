@@ -1,6 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!doctype html><html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="THE HARDLINE — seven-city live-music zine. Punk, hardcore, rock'n'roll, ska, reggae, funk, jazz, blues, bluegrass across NFK, RVA, DC, CLT, RDU, CHS, CAE.">
@@ -389,8 +387,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,.c
   .prow b{font-family:var(--font-cond);font-size:14px;text-transform:uppercase}
 }
 </style>
-</head>
-<body>
+</head><body>
 <div class="wrap">
 
   <header class="masthead" id="top">
@@ -1045,5 +1042,4 @@ if (!citySaved) activeCity = nearestCity();
 $('hqLabel').textContent = hq.label; buildCityTabs(); switchCity();
 (function deepLink(){ try { const h=new URLSearchParams(location.hash.slice(1)); const ev=h.get('ev'); const c=h.get('c'); if (c&&CITIES[c]){ activeCity=c; switchCity(); } if (ev&&EV[ev]) setTimeout(()=>jumpTo(EV[ev]),300); } catch(_){} })();
 </script>
-</body>
-</html>
+</body></html>
